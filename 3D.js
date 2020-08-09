@@ -1,16 +1,16 @@
 let scene, camera, renderer;
 
       function init() {
-
+        // Tao khung canh
         scene = new THREE.Scene();
         scene.background = new THREE.Color(0xdddddd);
-
+        // Tao vi tri may quay
         camera = new THREE.PerspectiveCamera(40,window.innerWidth/window.innerHeight,1,5000);
         camera.rotation.y = 45/180*Math.PI;
         camera.position.x = 800;
         camera.position.y = 100;
         camera.position.z = 1000;
-
+        
         controls = new THREE.OrbitControls(camera);
         controls.addEventListener('change', renderer);
 
