@@ -62,7 +62,7 @@ import {
 	Vector3,
 	VectorKeyframeTrack,
 	sRGBEncoding
-} from "/Users/LeBeNa/Desktop/3D_Animation/three.module";
+} from "./three.module";
 
 var GLTFLoader = ( function () {
 
